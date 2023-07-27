@@ -59,9 +59,9 @@ function isOldEnoughToDrinkAndDrive(person) {
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'neutral';
-  } else if (pH < 7) {
+  } else if (pH < 7 && pH > 0) {
     return 'acid';
-  } else if (pH > 7) {
+  } else if (pH > 7 && pH < 14) {
     return 'base';
   } else {
     return 'invalid pH level';
@@ -69,12 +69,15 @@ function categorizeAcidity(pH) {
 }
 
 function introduceWarnerBro(name) {
-  if (name === 'yakko' || name === 'wakko') {
-    return "We're the warner brothers!";
-  } else if (name === 'dot') {
-    return "I'm cute";
-  } else {
-    return 'Goodnight everybody!';
+  switch (name) {
+    case 'yakko':
+      return "We're the warner brothers!";
+    case 'wakko':
+      return "We're the warner brothers!";
+    case 'dot':
+      return "I'm cute";
+    default:
+      return 'Goodnight everybody!';
   }
 }
 
