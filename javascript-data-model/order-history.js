@@ -52,15 +52,13 @@ const orderHistory = [
     shipTo: 'JS Masher',
     orderNumber: '113-2883177-2648248',
     delivered: 'Jun 5 2020',
-    item1: [
+    items: [
       {
         type: 'game',
         title: 'Gamecube controller - Super Smash Bros',
         returnWindow: 'Aug 4, 2020',
         totalCost: 94.95,
       },
-    ],
-    item2: [
       {
         type: 'book',
         title: 'The Art of SQL',
