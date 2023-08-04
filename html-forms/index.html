@@ -7,61 +7,67 @@
     <h1>Coding Form!</h1>
 
     <form action="" method="post">
-      <label for="mail">Email</label>
-      <p></p>
-      <input type="email" id="mail" name="user_email" />
+      <div>
+        <label for="mail">Email</label>
+        <div>
+          <input type="email" id="mail" name="user_email" />
+        </div>
+      </div>
 
-      <p></p>
-      <label for="dropdown">Why is coding cool?</label>
-      <p></p>
+      <div>
+        <label for="dropdown">Why is coding cool?</label>
+        <div>
+          <select name="option" id="dropdown">
+            <option value="">Select an option</option>
+            <option value="interesting">Because it's interesting</option>
+            <option value="fun">Because it's fun</option>
+            <option value="powerful">Because it's powerful</option>
+          </select>
+        </div>
+      </div>
 
-      <select name="option" id="dropdown">
-        <option value="">Select an option</option>
-        <option value="interesting">Because it's interesting</option>
-        <option value="fun">Because it's fun</option>
-        <option value="powerful">Because it's powerful</option>
-      </select>
+      <div>
+        <label for="favoriteLanguage">Favorite Language (choose one)</label>
+        <div>
+          <input type="radio" id="html" name="language" value="HTML" />
+          <label for="html">HTML</label>
+          <input type="radio" id="css" name="language" value="CSS" />
+          <label for="css">CSS</label>
+          <input
+            type="radio"
+            id="JavaScript"
+            name="language"
+            value="JavaScript" />
+          <label for="JavaScript">JavaScript</label>
+        </div>
+      </div>
 
-      <p></p>
-      <label for="favoriteLanguage">Favorite Language (choose one)</label>
+      <div>
+        <label for="signUp"
+          >Would you like to sign up for more information?</label
+        >
+        <div>
+          <input
+            type="checkbox"
+            id="signup"
+            value="Sign me up!"
+            name="signup"
+            checked />
+          <label for="confirmSignup">Sign me up!</label>
+        </div>
+      </div>
 
-      <p></p>
-      <input type="radio" id="html" name="HTML" value="HTML" />
-      <label for="html">HTML</label>
+      <div>
+        <p>Comments</p>
+        <textarea
+          name="comments"
+          id="comments"
+          style="font-family: 'Times New Roman', Times, serif"></textarea>
+      </div>
 
-      <input type="radio" id="css" name="CSS" value="CSS" />
-      <label for="css">CSS</label>
-
-      <input
-        type="radio"
-        id="JavaScript"
-        name="JavaScript"
-        value="JavaScript" />
-      <label for="JavaScript">JavaScript</label>
-
-      <p></p>
-      <label for="signUp"
-        >Would you like to sign up for more information?</label
-      >
-      <p></p>
-
-      <input
-        type="checkbox"
-        id="signup"
-        value="Sign me up!"
-        name="Sign me up!"
-        checked />
-      <label for="confirmSignup">Sign me up!</label>
-      <p></p>
-
-      <p>Comments</p>
-      <textarea
-        name="comments"
-        id="comments"
-        style="font-family: 'Times New Roman', Times, serif"></textarea>
-
-      <p></p>
-      <input type="submit" value="Submit" />
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
     </form>
   </body>
 </html>
