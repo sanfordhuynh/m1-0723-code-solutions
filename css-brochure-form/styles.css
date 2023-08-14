@@ -1,0 +1,51 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h2 {
+  color: #ec5f59;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+h5 {
+  margin-bottom: 5px;
+}
+
+.header {
+  text-align: center;
+}
+
+.info {
+  margin-left: 2rem;
+}
+
+#submit {
+  background-color: #ec5f59;
+  color: white;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.info form input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 30rem;
+  height: 2rem;
+}
+
+.info form select {
+  border-radius: 5px;
+  padding: 5px;
+  width: 30rem;
+  height: 2rem;
+  background-color: #f3f3f3;
+}
+
+.submitButton {
+  text-align: right;
+}
