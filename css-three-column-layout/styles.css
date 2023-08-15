@@ -22,13 +22,19 @@
   height: 100px;
   background-color: #fff;
   border-radius: 50%;
-  margin: 0 auto -70px;
+  margin: 0 auto -20px;
 
-  /* Give the circle a margin top 0, auto for L/R to center it and -70px at the bottom to bring circle up */
+  /* Give the circle a margin top 0, auto for L/R to center it and -20px at the bottom to bring circle up */
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .image {
-  max-width: 100%;
   width: 3rem;
 }
 
