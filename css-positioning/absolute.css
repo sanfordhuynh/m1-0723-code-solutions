@@ -39,5 +39,8 @@
 
   /* your code here */
   position: absolute;
-  bottom: 5px;
+  bottom: 2px;
+  top: 2px;
+  right: 1px;
+  left: 0;
 }
