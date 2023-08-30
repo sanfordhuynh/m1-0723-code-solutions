@@ -1,0 +1,43 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+p.size {
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  max-width: 350px;
+  height: 525px;
+  padding: 0 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+s {
+  font-weight: 300;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-one-fifth {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
